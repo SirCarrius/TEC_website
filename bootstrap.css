@@ -6654,4 +6654,16 @@ button.close {
     display: none !important;
   }
 }
+
+.entry-header {
+  padding: 30px;
+}
+
+.about_images {
+  padding-left: 100px;
+  padding-right:300px;
+  padding-bottom: 100px;
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */
