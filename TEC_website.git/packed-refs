@@ -1,0 +1,3 @@
+# pack-refs with: peeled fully-peeled 
+f28ddb6329bea557188011ebc0ec9d2a1115283d refs/heads/carriesbranch
+46d63c0169d01fc0c4eb80f9ce8bff23461f46e2 refs/heads/master

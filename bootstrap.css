@@ -6663,6 +6663,12 @@ button.close {
   padding: 30px;
 }
 
+.home-header {
+  padding: 30px;
+  color: #000066;
+  font-family: "Century Gothic";
+}
+
 .about_images {
   padding-left: 100px;
   padding-right:300px;
@@ -6675,6 +6681,20 @@ button.close {
 
 .second-pic {
   padding-left: 100px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  width: 40%;
+  height: 40%;
 }
 
 .middle-box {
@@ -6725,4 +6745,24 @@ button.close {
 .textborder {
   margin:10px;
 }
+
+.board-name {
+  background: rgba(255, 250, 250, 0.7);
+}
+
+.n-t {
+  padding-left: 80px;
+  padding-bottom:25px;
+}
+
+#left, #mid-one, #mid-two, #right {
+  display: inline-block; 
+  *display: inline; 
+  zoom: 1; 
+  vertical-align: top;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-left:50px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
