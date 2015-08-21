@@ -4307,6 +4307,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left:50px;
+  padding-right:50px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -4525,7 +4527,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
+  color: #777;
   background-color: #e7e7e7;
 }
 @media (max-width: 767px) {
@@ -4570,8 +4572,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+  padding-left: 200px;
+  background-color: #500;
+  border-color: #C0C0C0;
+  border-width:10px;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -6665,5 +6669,12 @@ button.close {
   padding-bottom: 100px;
 }
 
+.board-pics {
+  padding-left: 100px;
+}
+
+.second-pic {
+  padding-left: 100px;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
