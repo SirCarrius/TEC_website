@@ -6697,4 +6697,53 @@ button.close {
   height: 40%;
 }
 
+.middle-box {
+  background: rgba(255, 250, 250, 0.5);
+  margin-top:70px;
+  margin-left:70px;
+  margin-right:70px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.bottom-box {
+  background: rgba(255, 250, 250, 0.7);
+  margin-left:70px;
+  margin-right:70px;
+  margin-bottom:30px;
+  margin-top:20px;
+  text-align:justify;
+  width:250px;
+}
+
+.bottom-box img {
+  display: block;
+  margin: 0 auto;
+}
+
+#sub-left, #sub-middle, #sub-right {
+  display: inline-block; 
+  *display: inline; 
+  zoom: 1; 
+  vertical-align: top;
+}
+#sub-left {
+  margin-left:80px;
+  margin-right:80px;
+}
+#sub-middle {
+  margin-left:80px;
+  margin-right:80px;
+} 
+#sub-right {
+  margin-left:80px;
+  margin-right:80px;
+}
+
+.textborder {
+  margin:10px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
