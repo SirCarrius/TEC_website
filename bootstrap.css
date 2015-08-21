@@ -6746,12 +6746,22 @@ button.close {
   margin:10px;
 }
 
-#picleft, #picmiddle, #picright {
+.board-name {
+  background: rgba(255, 250, 250, 0.7);
+}
+
+.n-t {
+  padding-left: 80px;
+  padding-bottom:25px;
+}
+
+#left, #mid-one, #mid-two, #right {
   display: inline-block; 
   *display: inline; 
   zoom: 1; 
   vertical-align: top;
-  margin-left:50px;
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
