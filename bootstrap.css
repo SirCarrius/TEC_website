@@ -6725,4 +6725,14 @@ button.close {
 .textborder {
   margin:10px;
 }
+
+
+#picleft, #picmiddle, #picright {
+  display: inline-block; 
+  *display: inline; 
+  zoom: 1; 
+  vertical-align: top;
+  margin-left:50px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
