@@ -26,7 +26,7 @@
       </div>
     </nav>
     <div class="board-pics" id="left">
-        <img src="pic_soon.jpg" alt="Picture" style="width:200px;height:290px;"></img>
+        <a href="#" id="person1"><img src="pic_soon.jpg" alt="Picture" style="width:200px;height:290px;" /></a>
         <div class="board-name" style="width:200px;height:100px;">
           <h6 class="n-t"><strong>Name</strong></h6>
           <p class="n-t">Title</p>
@@ -100,19 +100,21 @@
         <div class="board-name" style="width:200px;height:100px;">
           <h6 class="n-t"><strong>Name</strong></h6>
           <p class="n-t">Title</p>
+    </div>
+    <div id="modal1" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          hi this is a test
         </div>
-    <div class="board-pics" id="picleft">
-        <img src="pic_soon.jpg" alt="Picture" style="width:200px;height:290px;"></img>
+      </div>
     </div>
-    <div class="board-pics" id="picmiddle">
-        <img src="pic_soon.jpg" alt="Picture" style="width:200px;height:290px;"></img>
-    </div>
-    <div class="board-pics" id="picright">
-        <img src="pic_soon.jpg" alt="Picture" style="width:200px;height:290px;"></img>
-    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="index.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="npm.js"></script>
+    <script src="board.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="ie10-viewport-bug-workaround.js"></script>
   </body>

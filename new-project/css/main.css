@@ -1,0 +1,147 @@
+body {
+    background-image: url("../img/background_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: rgba(255, 250, 250, 0.7);
+}
+
+#about-wrapper {
+    position:relative;
+    top:250px;
+}
+
+#about-banner {
+    position:relative;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:0px;
+}
+
+#about-banner p {
+    font-size: 18px;
+}
+
+#about-title {
+    border-bottom: 1px solid black;
+}
+
+#about-tabs img {
+    width:100%;
+}
+
+#about-tabs .image-wrapper {
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+#about-tabs p {
+    font-size:15px;
+}
+
+#tabs-wrapper {
+    background-color: white;
+    display:table;
+    border:1px solid #ddd;
+    padding-bottom:20px;
+}
+
+#tab2 {
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+}
+
+.navbar-nav {
+    width:100%;
+}
+
+.navbar-nav>li {
+    width:16.66666%;
+}
+
+.navbar-nav>li>a {
+    text-align: center;
+}
+
+.navbar-inverse {
+    background-color:#670A0A;
+    border-color:#1B0303;
+    border-style:dotted;
+    border-width: 3px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #3E0707
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  width: 40%;
+  height: 40%;
+}
+
+.home-header {
+  padding: 30px;
+  color: #000066;
+  font-family: "Century Gothic";
+}
+
+.person img {
+    width:100%;
+}
+
+.person-wrapper {
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+/*.person-text {
+    background: rgba(255, 250, 250, 0.7);
+}*/
+
+.n-t {
+    margin-top:0px;
+    text-align: center;
+}
+
+#name-font {
+    font-size:15px;
+}
+
+#board-wrapper {
+  position:relative;
+  margin-top:100px;
+}
+
+.modal-content {
+  padding: 50px;
+  width:550px;
+  margin-left:-100px;
+}
+
+.modal-container {
+  width:0px;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+#events-wrapper {
+  position:relative;
+  top:100px;
+}
+
+#events-container {
+  margin-left:100px;
+}
